@@ -25,7 +25,7 @@ print(a,"is of type:",type(a))
 #b-float to int
 b = 23.56
 print(b,"is of type:",type(b))
-b = int(b))
+b = int(b)
 print(b,"is of type:",type(b))
 
 
