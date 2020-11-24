@@ -12,7 +12,7 @@ print("Add c value by 60=",sum)
 #2
 Word="SMILE"
 X=list(Word)
-X[2]="A"
+X[2]="G"
 New_Word="".join(X)
 print("New Word:",New_Word)
 
