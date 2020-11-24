@@ -1,1 +1,31 @@
+#Task-2 #Day-2
+
+#1
+a=b=c=100
+Divide=(a/10)
+Multiply=(b*50)
+sum=(c+60)
+print("Divide a by 10=",Divide)
+print("Multiply b by 50=",Multiply)
+print("Add c value by 60=",sum)
+
+#2
+Word="SMILE"
+X=list(Word)
+X[3]="A"
+New_Word="".join(X)
+print("New Word:",New_Word)
+
+#3
+#a-int to float
+a = 5
+print(a,"is of type:",type(a))
+a = float(a)
+print(a,"is of type:",type(a))
+#b-float to int
+b = 23.56
+print(b,"is of type:",type(b))
+b = int(b)
+print(b,"is of type:",type(b))
+
 
