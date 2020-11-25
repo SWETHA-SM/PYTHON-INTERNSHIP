@@ -1,0 +1,27 @@
+#Task-3 #Day3
+#1
+dict1={"Maharashtra":"Mumbai","Tamilnadu":"Chennai",}
+dict2={"Telangana":"Hyderabad","Karnataka":"Bengaluru",}
+dict1.update(dict2)
+print (dict1)
+
+#2
+dict1={"Maharashtra":"Mumbai","Tamilnadu":"Chennai",}
+del dict1["Maharashtra"]
+print (dict1)
+
+#3
+keys= ["Name","Age"]
+values= ["Nivar", 23]
+X = dict(zip(keys, values))
+print(X)
+
+#4
+n = len({23, 45,"Nilan",54, 99,"Maran",66,"Nivar"})   
+print("The length of set is:", n)
+
+#5
+set1= {4,1,2,3,5,6,9}
+set2= {4,5,6,7,8}
+print(set1-set2)
+
