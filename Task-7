@@ -1,0 +1,28 @@
+#Task-7  #Day7
+#1
+#Creating a module
+def mymodule(l):
+    a=[1,2,3]
+    b=a+l
+    print(b)
+    return
+#Importing the module
+import mymodule
+mymodule.mymodule([4,5])
+
+#2
+#Pandas Package installed using pip install pandas in cmd prompt
+
+#3
+import random
+y=int(input("Enter the number of random number:"))
+for x in range(y):
+    print(random.randint(0,100))
+    
+#4
+import sys
+print (sys.path)
+
+#5
+Installed and Uninstalled a package using pip
+
