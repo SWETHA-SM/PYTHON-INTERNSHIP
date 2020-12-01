@@ -1,0 +1,32 @@
+#Task-9  #Day9
+#1
+Multiplication = lambda x, y : x * y
+print(Multiplication(10, 20))
+
+#2
+def fibonacci(count): 
+    fib_list = [0, 1]
+    any(map(lambda _: fib_list.append(sum(fib_list[-2:])),range(2, count))) 
+    return fib_list[:count]   
+print(fibonacci(10))
+
+#3
+nums=[2, 4, 6, 9 , 11]
+n=2
+print("Original list:", nums)
+print("Given number:", n)
+Mlist=list(map(lambda number:number*n,nums))
+print("Result:")
+print(' '.join(map(str,Mlist)))
+
+#4
+list1=[18,65,54,72,102,225,135]
+result=list(filter(lambda x:(x%9==0),list1))
+print("Numbers divisible by 13 are",result)
+
+#5
+list1 = [21,4,6,33,2,44,76]
+print("List=",list1)
+even = len(list(filter(lambda x:(x%2==0),list1)))
+print("Even numbers in the list: ",even)
+
