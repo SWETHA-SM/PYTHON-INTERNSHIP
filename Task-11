@@ -1,0 +1,32 @@
+#Task-11  #Day11
+#1
+a = ["Nilan","Nivar","Maran"]
+b = [23, 25,24]
+x =list(zip(a,b))
+print(x)
+
+#2
+range1= list (range(1,8))
+list1=["Alpha","Bravo","Charlie","Delta","Echo","Foxtrot","Golf"]
+x=list(zip(range1,list1))
+print(x)
+
+#3
+a = ["Nilan","Bryan","Maran","Abi"]
+b = [19,16,27,24]
+x=sorted(list(zip(a,b)))
+print(x)
+
+#4
+numbers=[12,43,56,87,23,98,34,91,65,70,19,40]
+def even_numbers(num):
+    if(num%2 == 0):
+        return True
+    else:
+        return False
+
+evenNumbers = filter(even_numbers, numbers)
+print('Even Numbers are:')
+for num in evenNumbers:
+    print(num)
+
