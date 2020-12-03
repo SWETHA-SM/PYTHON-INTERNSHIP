@@ -60,7 +60,6 @@ for n in res:
      print(n.group(0))
 	 
 #5
-#Match a string that contains only uppercase letters
 import re
 def ma(text):
         pat= '^[A-Z]'
