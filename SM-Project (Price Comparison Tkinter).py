@@ -71,7 +71,7 @@ class Price_compare:
         button_flip_visit.grid(row=1, column=2, sticky=W)
 
     def price_flipkart(self, key):
-        url_flip = 'https://www.flipkart.com/search?q=' + str(key) + '&marketplace=FLIPKART&otracker=start&as-show=on&as=off'
+        url_flip = 'https://www.flipkart.com/search?q=' + str(key) 
         map = defaultdict(list)
         self.headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'}
         source_code = requests.get(url_flip, headers=self.headers)
